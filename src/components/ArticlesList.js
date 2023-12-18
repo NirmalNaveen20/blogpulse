@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 const ArticlesList = ({ articles }) => {
     return (
         <>
@@ -10,7 +11,7 @@ const ArticlesList = ({ articles }) => {
         </Link>
       ))}
         </>
-        
+
     );
 }
 
