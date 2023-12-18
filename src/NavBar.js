@@ -4,13 +4,13 @@ const NavBar = () => {
         <nav>
             <ul>
                 <li>
-                    <link to="/">Home</link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <link to="/about">About</link>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <link to="/articles">Articles</link>
+                    <Link to="/articles">Articles</Link>
                 </li>
             </ul>
         </nav>
