@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import articles from "./article-content";
 
 const ArticlesListPage = () => {
@@ -5,10 +6,10 @@ const ArticlesListPage = () => {
       <>
       <h1>Articles</h1>
       { articles.map(article => (
-        <div>
+        <Link to={`/articles/${article.name}`}>
           <h3>{article.title}</h3>
           <p>{ article.content[0].substring(0,150) }...</p>
-        </div>
+        </Link>
       ))}
       </>
     );
